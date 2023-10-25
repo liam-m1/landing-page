@@ -83,6 +83,7 @@ h3 {
 
 .b2 {
     display: flex;
+    min-height: 250px;
     align-items: center;
     justify-content: center;
     gap: 10px;
@@ -98,4 +99,28 @@ h3 {
     justify-content: center;
     text-align: center;
     gap: 3px;
+}
+
+.b3 {
+    display: flex;
+    padding: 100px;
+    min-height: 250px;
+    background-color: #E5E7EB;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    width: 800px;
+    font-size: 36px;
+    font-weight: lighter;
+}
+
+.quoteSig {
+    display: flex;
+    align-self: flex-end;
+    margin-right: 300px;
+    font-size: 20px;
+    font-weight: 600;
 }
